@@ -1,0 +1,20 @@
+name: qmlwinter24
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - qiskit
+  - qiskit-ibm-runtime
+  - pip
+  - pip:
+     - qiskit-algorithms
+     - qiskit-machine-learning
+     - qiskit-aer
+     - jupyterlab
+     - notebook
+     - pylatexenc
+     - matplotlib
+     - ipywidgets
+     - seaborn
+     - scikit-learn
